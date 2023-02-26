@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main_div {
+  border-top: 8px solid gray;
+  padding-bottom: 70px;
+  border-bottom: 6px solid gray;
+}
+.first_div {
+  width: 80%;
+  margin: auto;
+}
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  border-bottom: 2px solid lightgray;
+}
+.name {
+  font-size: 60px;
+}
+.job_title {
+  margin-top: -35px;
+}
+.linked_in {
+  background-color: black;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  color: white;
+  /* width: ; */
+  margin-left: 20px;
+}
+.linked_in:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: 2px solid black;
+}
+.emil {
+  color: red;
+  margin-top: 14px;
+  cursor: pointer;
+}
+.emil:hover {
+  color: black;
+  cursor: pointer;
+}
+.phone {
+  margin-top: -6px;
+  text-align: center;
+}
+.profile {
+  display: flex;
+  gap: 130px;
+  padding: 20px 0px 20px 0px;
+  border-bottom: 2px solid lightgray;
+
+  font-family: "Gill Sans", sans-seri;
+}
+.profile_hidding {
+  /* padding-top: 10px; */
+  font-family: "Gill Sans", sans-seri;
+}
+.profile_des {
+  width: 50%;
+  font-size: medium;
+  font-weight: 400;
+  font-family: "Gill Sans", sans-seri;
+}
+.skils {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0px 20px 0px;
+  font-family: "Gill Sans", sans-seri;
+
+  border-bottom: 2px solid lightgray;
+}
+.skils_data {
+  width: 20%;
+}
+.skils_des {
+  font-family: "Gill Sans", sans-seri;
+  padding-top: -2px;
+  font-size: normal;
+  font-family: "Gill Sans", sans-seri;
+}
+.technical_style {
+  border-bottom: 2px solid lightgray;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  gap: 60px;
+}
+.Technical_dtl {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid lightgray;
+  font-family: "Gill Sans", sans-seri;
+  font-size: 10px;
+  font-weight: lighter;
+}
+.sub_heading {
+  width: 100px;
+  text-align: start;
+  font-family: "Gill Sans", sans-seri;
+  font-size: normal;
+}
+.Experience_style {
+  border-bottom: 2px solid lightgray;
+  padding: 20px 0px 20px 0px;
+
+  display: flex;
+  gap: 60px;
+}
+.Experience_right_side {
+  width: 80%;
+}
+.compamy_des {
+  font-family: "Gill Sans", sans-seri;
+  margin-top: -4px;
+  font-size: 16px;
+  padding-bottom: 25px;
+}
+.company_del {
+  display: flex;
+  justify-content: space-between;
+}
+.Education_style {
+  border-bottom: 2px solid lightgray;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  gap: 60px;
+  padding-bottom: 50px;
+}
